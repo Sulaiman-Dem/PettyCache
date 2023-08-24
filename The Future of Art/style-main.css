@@ -41,16 +41,14 @@ img {
 
 
 fieldset {
-    margin: auto;
     text-align: center;
 }
 #outer-box{
+    border: 0;
     box-sizing: border-box;
     display: inline-flex;
     max-width: 49%;
     margin: 0;
-    border: 1;
-    
     max-height: 100%;
     
 }
