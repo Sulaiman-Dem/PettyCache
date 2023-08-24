@@ -9,11 +9,15 @@ ul {
 header {
     padding: 30px;
     text-align: center;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FqMq9qQk08nhAY%2Fgiphy.gif&f=1&nofb=1&ipt=5578017fde236491418c6f9e53fa076048beb11f46ee55559e4ef7afd50656eb&ipo=images);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FqMq9qQk08nhAY%2Fgiphy.gif&f=1&nofb=1&ipt=5578017fde236491418c6f9e53fa076048beb11f46ee55559e4ef7afd50656eb&ipo=images);
     color: rgb(0, 0, 0);
     font-size: 15px;
     opacity: 0.6;
-  }
+}
+
+#history {
+    background-color: rgb(249, 222, 203);
+}
 
 
 h1, h2{
@@ -22,16 +26,21 @@ h1, h2{
     
 }
 
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
 h4 {
     text-align: center;
 }
+
 #artist-description {
     text-align: right;
     margin-left: 25%;;
     left: 50%;
 }
 img {
-    
+    border: 100px;
+    border-color: aquamarine;
     display: inline-flex;
     margin-right: 400px;
     width: 150px;
@@ -42,6 +51,9 @@ img {
 
 fieldset {
     text-align: center;
+}
+fieldset, p {
+    font-family: 'Delicious Handrawn', cursive;
 }
 #outer-box{
     border: 0;
