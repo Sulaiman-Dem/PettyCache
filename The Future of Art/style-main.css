@@ -7,16 +7,22 @@ ul {
     list-style-type: none;
 }
 header {
+    bottom:0;
+    left:10px;
+    width:100%;
+    height: 200px;
     padding: 30px;
     text-align: center;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FqMq9qQk08nhAY%2Fgiphy.gif&f=1&nofb=1&ipt=5578017fde236491418c6f9e53fa076048beb11f46ee55559e4ef7afd50656eb&ipo=images);
     color: rgb(0, 0, 0);
     font-size: 15px;
-    opacity: 0.6;
+    
 }
 
 #history {
-    background-color: rgb(249, 222, 203);
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 10px;
 }
 
 
@@ -35,17 +41,22 @@ h4 {
 
 #artist-description {
     text-align: right;
-    margin-left: 25%;;
-    left: 50%;
+    margin-left: 35%;
+    
+    left: 10%;
 }
+
+
 img {
     border: 100px;
     border-color: aquamarine;
-    display: inline-flex;
+    display: flex;
+    margin-left: 5%;
     margin-right: 400px;
     width: 150px;
     height: 150px;
 }
+
 
 
 
@@ -79,13 +90,12 @@ fieldset, p {
 }
 
 footer {
-    
     padding: 20px;
     bottom:0;
     left:0;
     width:100%;
     height: 90px;
-    background-color:rgb(193, 143, 138);
+    background-color:rgb(104, 96, 95);
     text-align: center;
 }
 
