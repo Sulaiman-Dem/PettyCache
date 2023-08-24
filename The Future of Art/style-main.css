@@ -1,0 +1,81 @@
+
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FKAYXSyY.jpg&f=1&nofb=1&ipt=c289c4e82668ecb18beeb1b2b9df425c2bcfdba1ab2285c354a9977c63395486&ipo=images);
+}
+ul {
+    list-style-type: none;
+}
+header {
+    padding: 30px;
+    text-align: center;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FqMq9qQk08nhAY%2Fgiphy.gif&f=1&nofb=1&ipt=5578017fde236491418c6f9e53fa076048beb11f46ee55559e4ef7afd50656eb&ipo=images);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    opacity: 0.6;
+  }
+
+
+h1, h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+h4 {
+    text-align: center;
+}
+#artist-description {
+    text-align: right;
+    margin-left: 25%;;
+    left: 50%;
+}
+img {
+    
+    display: inline-flex;
+    margin-right: 400px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+fieldset {
+    margin: auto;
+    text-align: center;
+}
+#outer-box{
+    box-sizing: border-box;
+    display: inline-flex;
+    max-width: 49%;
+    margin: 0;
+    border: 1;
+    
+    max-height: 100%;
+    
+}
+#inner-box  {
+    display: block;
+    max-width: 90%;
+    font-size: 1vw;
+    border-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.photopublicdomain.com%2Fwp-content%2Fuploads%2F2017%2F04%2FGolden-frame-border.jpg&f=1&nofb=1&ipt=e3581dfbd36aaf4d698237b1494b65ac501f75bc90a687acc861b516782e5899&ipo=images) 93 92 87 92;
+    border-width: 26px 25px 20px 25px;
+    
+}  
+
+#references {
+    margin-bottom: 150px;
+    border: 0;
+}
+
+footer {
+    
+    padding: 20px;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color:rgb(193, 143, 138);
+    text-align: center;
+}
+
