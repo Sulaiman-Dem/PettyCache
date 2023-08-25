@@ -7,6 +7,8 @@
 ## Description:
 
 This is a website that explains the history of art and has many examples of artist and their work. Then it explains our future opinions toward what art will look like in the future.
+Check out the "Preview Of Website" folder to see 4 images show the contents of the website and design.
+
 ---
 
 ## Members:
