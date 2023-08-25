@@ -91,11 +91,11 @@ h4 {
 
 .flex-description img {
     /* display: inline-flex; */
-    margin-right: 100px;
     height: 350px;
 }
 
 .flex-description p {
+    margin-left: 100px;
     max-width: 800px;
 }
 p {
@@ -152,3 +152,32 @@ li {
 #backToTop {
     color: black;
 }
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 80%; /* Adjust as needed */
+    max-height: 80vh; /* Adjust as needed */
+  }
+  
+  .modal-content img {
+    max-width: 100%;
+    height: auto;
+  }

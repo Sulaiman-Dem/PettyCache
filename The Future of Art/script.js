@@ -28,3 +28,25 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollToElement(document.body);
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modalLinks = document.querySelectorAll('[data-modal-target]');
+  const modals = document.querySelectorAll('.modal-overlay');
+
+  modalLinks.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const targetModalId = link.getAttribute('data-modal-target');
+      const modal = document.getElementById(targetModalId);
+      modal.style.display = 'block';
+    });
+  });
+
+  modals.forEach(function(modal) {
+    modal.addEventListener('click', function(event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
+});
